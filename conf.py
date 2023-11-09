@@ -3,26 +3,43 @@
 
 
 import sys, os
-project = u'Google 开源项目风格指南'
-copyright = u''
-version = u''
-release = u''
+# Setup AutoStructify for inline .rst toctrees in index.md
+from recommonmark.transform import AutoStructify
 
-source_suffix = '.rst'
+project = u'Google 开源项目风格指南'
+copyright = '2023-future, yushuoqi. Licensed under Creative Commons Attribution 4.0 International License.'
+version = u'1.0'
+release = u'1.0'
+author = 'yushuoqi'
+
+from recommonmark.parser import CommonMarkParser
+class CustomCommonMarkParser(CommonMarkParser):
+    def visit_document(self, node):
+        pass
+
+#source_suffix = '.rst'
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
 master_doc = 'contents'
 language = 'en_US'
 exclude_patterns = ['_build']
-extensions = ['sphinx.ext.imgmath']
+extensions = [
+    'sphinx.ext.imgmath',
+    'sphinx.ext.todo',
+    'recommonmark',
+    'sphinx_markdown_tables', # markdown tables
+    ]
 pygments_style = 'sphinx'
 
 # on_rtd is whether we are on readthedocs.org
-import os
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-if not on_rtd:  # only import and set the theme if we're building docs locally
-    import sphinx_rtd_theme
-    html_theme = 'sphinx_rtd_theme'
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+#if not on_rtd:  # only import and set the theme if we're building docs locally
+import sphinx_rtd_theme
+html_theme = 'sphinx_rtd_theme'
+#html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # otherwise, readthedocs.org uses their theme by default, so no need to specify it
 

@@ -1,11 +1,9 @@
 Google 开源项目风格指南——中文版
 ================================
 
-* ReadTheDocs 托管地址： `在线阅读最新版本 <https://zh-google-styleguide.readthedocs.io/en/latest/>`_
+* ReadTheDocs 托管地址： `在线阅读最新版本 <https://yushuoqi-code-style-google.readthedocs.io/en/latest/>`_
 
-* GitHub 托管地址： `zh-google-styleguide <https://github.com/zh-google-styleguide/zh-google-styleguide>`_
-
-* 离线文档下载地址： `release <https://github.com/zh-google-styleguide/zh-google-styleguide/releases>`_
+* GitHub 托管地址： `yushuoqi-code-style-google <https://github.com/Franklin-Qi/yushuoqi-code-style-google>`_
 
 .. note:: 
 
@@ -23,22 +21,22 @@ Google 开源项目风格指南——中文版
 
 我们已经发布了七份 **中文版** 的风格指南:
 
-#. `Google C++ 风格指南 <http://zh-google-styleguide.readthedocs.org/en/latest/google-cpp-styleguide/>`_
+#. `Google C++ 风格指南 <http://yushuoqi-code-style-google.readthedocs.org/en/latest/google-cpp-styleguide/>`_
 
-#. `Google Objective-C 风格指南 <http://zh-google-styleguide.readthedocs.org/en/latest/google-objc-styleguide/>`_
+#. `Google Objective-C 风格指南 <http://yushuoqi-code-style-google.readthedocs.org/en/latest/google-objc-styleguide/>`_
 
-#. `Google Python 风格指南 <http://zh-google-styleguide.readthedocs.org/en/latest/google-python-styleguide/>`_
+#. `Google Python 风格指南 <http://yushuoqi-code-style-google.readthedocs.org/en/latest/google-python-styleguide/>`_
 
-#. `Google JavaScript 风格指南 <https://zh-google-styleguide.readthedocs.io/en/latest/google-javascript-styleguide/>`_
+#. `Google JavaScript 风格指南 <https://yushuoqi-code-style-google.readthedocs.io/en/latest/google-javascript-styleguide/>`_
 
-#. `Google Shell 风格指南 <http://zh-google-styleguide.readthedocs.org/en/latest/google-shell-styleguide/>`_
+#. `Google Shell 风格指南 <http://yushuoqi-code-style-google.readthedocs.org/en/latest/google-shell-styleguide/>`_
 
 #. `Google JSON 风格指南 <https://github.com/darcyliu/google-styleguide/blob/master/JSONStyleGuide.md>`_
 
-#. `Google TypeScript 风格指南 <https://zh-google-styleguide.readthedocs.io/en/latest/google-typescript-styleguide/contents/>`_
+#. `Google TypeScript 风格指南 <https://yushuoqi-code-style-google.readthedocs.io/en/latest/google-typescript-styleguide/contents/>`_
 
 中文版项目采用 reStructuredText 纯文本标记语法，并使用 Sphinx 生成 HTML / CHM / PDF 等文档格式。
 
 * 英文版项目还包含 `cpplint <https://github.com/google/styleguide/tree/gh-pages/cpplint>`_ ——一个用来帮助适应风格准则的工具，以及 `google-c-style.el <https://raw.githubusercontent.com/google/styleguide/gh-pages/google-c-style.el>`_，Google 风格的 Emacs 配置文件。
 
-* 另外，招募志愿者翻译 `JavaScript Style Guide <http://google.github.io/styleguide/javascriptguide.xml>`_ 以及 `XML Document Format Style Guide <http://google.github.io/styleguide/xmlstyle.html>`_ ，有意者请联系 `Yang.Y <https://github.com/yangyubo>`_ 。
+* 另外，招募志愿者翻译 `JavaScript Style Guide <http://google.github.io/styleguide/javascriptguide.xml>`_ 以及 `XML Document Format Style Guide <http://google.github.io/styleguide/xmlstyle.html>`_ ，有意者请联系 `Franklin-Qi <https://github.com/Franklin-Qi>`_ 。
